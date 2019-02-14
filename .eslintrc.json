@@ -1,0 +1,170 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": false,
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "16.6.3"
+    },
+    "import/ignore": ["react-native-swiper", "react-native-percentage-circle"]
+  },
+  "plugins": ["react", "react-native", "import"],
+  "globals": {
+    "describe": true,
+    "it": true,
+    "expect": true,
+    "__DEV__": false,
+    "__dirname": false,
+    "alert": false,
+    "Blob": false,
+    "cancelAnimationFrame": false,
+    "cancelIdleCallback": false,
+    "clearImmediate": true,
+    "clearInterval": false,
+    "clearTimeout": false,
+    "console": false,
+    "escape": false,
+    "Event": false,
+    "EventTarget": false,
+    "exports": false,
+    "fetch": false,
+    "File": false,
+    "FileReader": false,
+    "FormData": false,
+    "global": false,
+    "Map": true,
+    "module": false,
+    "navigator": false,
+    "process": false,
+    "Promise": true,
+    "requestAnimationFrame": true,
+    "requestIdleCallback": true,
+    "require": false,
+    "Set": true,
+    "setImmediate": true,
+    "setInterval": false,
+    "setTimeout": false,
+    "WebSocket": false,
+    "window": false,
+    "XMLHttpRequest": false,
+    "jest": true
+  },
+  "rules": {
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "react/jsx-filename-extension": 0,
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "no-return-assign": 0,
+    "react/no-unused-prop-types": 0,
+    "camelcase": 0,
+    "react/prop-types": 0,
+    "react/prefer-stateless-function": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/destructuring-assignment": 2,
+    "no-mixed-operators": 0,
+    "curly": 0,
+    "arrow-parens": 0,
+    "max-len": [
+      "error",
+      {
+        "code": 100,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreComments": true
+      }
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1,
+        "ignoredNodes": ["ConditionalExpression"]
+      }
+    ],
+    "linebreak-style": ["error", "unix"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "semi": 2,
+    "prefer-const": ["error"],
+    "no-var": ["error"],
+    "no-new-object": ["error"],
+    "object-shorthand": ["error"],
+    "quote-props": ["error", "as-needed"],
+    "no-array-constructor": ["error"],
+    "array-callback-return": ["error"],
+    "prefer-rest-params": ["error"],
+    "prefer-arrow-callback": ["error"],
+    "arrow-spacing": ["error"],
+    "arrow-body-style": ["error", "as-needed"],
+    "no-useless-constructor": ["error"],
+    "no-dupe-class-members": ["error"],
+    "no-duplicate-imports": ["error"],
+    "no-iterator": ["error"],
+    "no-restricted-syntax": ["error"],
+    "generator-star-spacing": ["error", "after"],
+    "dot-notation": ["error"],
+    "eqeqeq": ["error"],
+    "no-unneeded-ternary": ["error"],
+    "brace-style": ["error"],
+    "space-before-blocks": ["error"],
+    "keyword-spacing": ["error"],
+    "space-infix-ops": ["error"],
+    "eol-last": ["error"],
+    "padded-blocks": ["error", "never"],
+    "space-in-parens": ["error"],
+    "array-bracket-spacing": ["error"],
+    "no-multiple-empty-lines": ["error"],
+    "key-spacing": ["error"],
+    "object-curly-spacing": [
+      "error",
+      "always",
+      {
+        "objectsInObjects": true,
+        "arraysInObjects": true
+      }
+    ],
+    "no-trailing-spaces": ["error"],
+    "no-multi-spaces": ["error"],
+    "no-irregular-whitespace": ["error"],
+    "new-cap": ["off"],
+    "comma-spacing": [
+      2,
+      {
+        "before": false,
+        "after": true
+      }
+    ],
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 0,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 0
+  }
+}
