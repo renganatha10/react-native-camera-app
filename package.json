@@ -12,7 +12,9 @@
     "react-native": "0.58.4",
     "react-native-camera": "^1.10.2",
     "react-native-ffmpeg": "^0.3.1",
-    "react-native-video": "^4.3.1"
+    "react-native-fs": "^2.13.3",
+    "react-native-video": "^4.3.1",
+    "react-navigation": "^2.6.2"
   },
   "devDependencies": {
     "babel-core": "7.0.0-bridge.0",
@@ -20,6 +22,11 @@
     "jest": "24.1.0",
     "metro-react-native-babel-preset": "0.51.1",
     "react-test-renderer": "16.6.3"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/"
+    ]
   },
   "jest": {
     "preset": "react-native"

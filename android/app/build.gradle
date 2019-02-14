@@ -138,6 +138,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-fs')
+    implementation project(':react-native-ffmpeg')
     implementation project(':react-native-video')
     implementation (project(':react-native-camera')) {
         exclude group: "com.android.support"
