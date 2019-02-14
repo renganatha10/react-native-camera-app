@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		0013EEB30A0446AFBACFE547 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C431D04CC4744B13BDE4C6EB /* libRNCamera.a */; };
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
@@ -24,6 +25,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		17716DD49C5441AAA80B7DF8 /* img1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FFD05A03BF4C4C1D8250610A /* img1.gif */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -37,16 +39,15 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* cameraappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* cameraappTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		607CD55EE6B343F88AED933A /* pyramid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E433040E2C74D478561BEBF /* pyramid.jpg */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		A6B77298221558400038F339 /* libRCTCameraRoll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B77274221558040038F339 /* libRCTCameraRoll.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		B54B142D01C44937899075D8 /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 381C975E2E224232975E0EE1 /* colosseum.jpg */; };
+		B5FEDB7180CA42A1A73E91F7 /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2BEF325F2BCB4D3DAE46C7E6 /* tajmahal.jpg */; };
 		D0EE8C3C5A0D6667F15EFF71 /* libPods-cameraapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2269FB047001998087A3FB13 /* libPods-cameraapp.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
-		F02DE549636B4084911826A1 /* colosseum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 966D2C0033154ECCB992D678 /* colosseum.jpg */; };
-		CC804BD55BC0413B9D759170 /* img1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A256B8E4FF414B62A7653530 /* img1.gif */; };
-		27F4B1C613A745D6A1876F76 /* pyramid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9568680EB97A4C2E98E4CDE2 /* pyramid.jpg */; };
-		7AED1BB83EFB41359F2DDFA0 /* tajmahal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB45AA5FC52B4AE2B57D2393 /* tajmahal.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -374,10 +375,13 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = cameraapp/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2269FB047001998087A3FB13 /* libPods-cameraapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cameraapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BEF325F2BCB4D3DAE46C7E6 /* tajmahal.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = tajmahal.jpg; path = ../src/assets/tajmahal.jpg; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* cameraapp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cameraapp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* cameraapp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cameraapp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		381C975E2E224232975E0EE1 /* colosseum.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = colosseum.jpg; path = ../src/assets/colosseum.jpg; sourceTree = "<group>"; };
 		3C5B93C02FCDC7248AC636F9 /* Pods-cameraapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cameraapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-cameraapp/Pods-cameraapp.release.xcconfig"; sourceTree = "<group>"; };
+		4E433040E2C74D478561BEBF /* pyramid.jpg */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = pyramid.jpg; path = ../src/assets/pyramid.jpg; sourceTree = "<group>"; };
 		5A120570F5064900A0DB9403 /* RCTVideo.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTVideo.xcodeproj; path = "../node_modules/react-native-video/ios/RCTVideo.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
@@ -390,10 +394,7 @@
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EE0E454153BF439FA4F16384 /* libRCTVideo.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTVideo.a; sourceTree = "<group>"; };
-		966D2C0033154ECCB992D678 /* colosseum.jpg */ = {isa = PBXFileReference; name = "colosseum.jpg"; path = "../assets/colosseum.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A256B8E4FF414B62A7653530 /* img1.gif */ = {isa = PBXFileReference; name = "img1.gif"; path = "../assets/img1.gif"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9568680EB97A4C2E98E4CDE2 /* pyramid.jpg */ = {isa = PBXFileReference; name = "pyramid.jpg"; path = "../assets/pyramid.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DB45AA5FC52B4AE2B57D2393 /* tajmahal.jpg */ = {isa = PBXFileReference; name = "tajmahal.jpg"; path = "../assets/tajmahal.jpg"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFD05A03BF4C4C1D8250610A /* img1.gif */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = img1.gif; path = ../src/assets/img1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -592,6 +593,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5BBF5212771547C5A42D880D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				381C975E2E224232975E0EE1 /* colosseum.jpg */,
+				FFD05A03BF4C4C1D8250610A /* img1.gif */,
+				4E433040E2C74D478561BEBF /* pyramid.jpg */,
+				2BEF325F2BCB4D3DAE46C7E6 /* tajmahal.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -711,18 +723,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		5BBF5212771547C5A42D880D /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				966D2C0033154ECCB992D678 /* colosseum.jpg */,
-				A256B8E4FF414B62A7653530 /* img1.gif */,
-				9568680EB97A4C2E98E4CDE2 /* pyramid.jpg */,
-				DB45AA5FC52B4AE2B57D2393 /* tajmahal.jpg */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -1214,10 +1214,10 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				F02DE549636B4084911826A1 /* colosseum.jpg in Resources */,
-				CC804BD55BC0413B9D759170 /* img1.gif in Resources */,
-				27F4B1C613A745D6A1876F76 /* pyramid.jpg in Resources */,
-				7AED1BB83EFB41359F2DDFA0 /* tajmahal.jpg in Resources */,
+				B54B142D01C44937899075D8 /* colosseum.jpg in Resources */,
+				17716DD49C5441AAA80B7DF8 /* img1.gif in Resources */,
+				607CD55EE6B343F88AED933A /* pyramid.jpg in Resources */,
+				B5FEDB7180CA42A1A73E91F7 /* tajmahal.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
